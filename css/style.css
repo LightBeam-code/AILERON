@@ -1,0 +1,92 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*[Derived from WCS]*/
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+body{
+    background: rgb(22,118,195);
+    background: linear-gradient(90deg, rgba(22,118,195,0.6418942577030813) 0%, rgba(29,127,253,0.5746673669467788) 50%, rgba(9,86,179,0.4822303921568627) 100%);
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+
+.CONTENT{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+    background: rgb(29,4,138);
+    background: linear-gradient(90deg, rgba(29,4,138,0.52) 0%, rgba(107,29,253,0.52) 50%, rgba(69,125,252,0.5886729691876751) 100%);
+    position: fixed;
+}
+.hEaD{
+    padding-top: 4px;
+    font-family: "Skranji";
+    font-weight: 700;
+    font-size: 70px;
+    color: rgba(191, 207, 243, 0.301);
+    text-transform: uppercase;
+}
+.CONTENT ul{
+    display: flex;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.CONTENT ul li{
+    list-style: none;
+    margin: 10px;
+}
+.CONTENT ul a{
+    font-weight: 700;
+    font-family:"Josefin Sans";
+    font-style: oblique;
+    font-size: 37px;
+    text-decoration: none;
+    color: rgba(97, 97, 211, 0.507);
+}
