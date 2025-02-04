@@ -43,14 +43,9 @@
 }
 
 /*---------------------------------------------------------------------------------------------*/
-
 body{
-    background: rgb(22,118,195);
-    background: linear-gradient(90deg, rgba(22,118,195,0.6418942577030813) 0%, rgba(29,127,253,0.5746673669467788) 50%, rgba(9,86,179,0.4822303921568627) 100%);
-    overflow: visible;
-    overflow-x: hidden;
+    background: url(/images/image2.jpg);
 }
-
 .CONTENT{
     width: 100%;
     display: flex;
@@ -58,8 +53,8 @@ body{
     align-items: center;
     text-align: center;
     height: 15vh;
-    background: rgb(29,4,138);
-    background: linear-gradient(90deg, rgba(29,4,138,0.52) 0%, rgba(107,29,253,0.52) 50%, rgba(69,125,252,0.5886729691876751) 100%);
+    background: rgb(29, 4, 138);
+    background: linear-gradient(90deg, rgb(29, 4, 138) 0%, rgb(107, 29, 253) 50%, rgb(69, 124, 252) 100%);
     position: fixed;
 }
 .hEaD{
@@ -89,39 +84,57 @@ body{
     text-decoration: none;
     color: rgba(36, 70, 179, 0.788);
 }
-.feats{
-    align-items: center;
+
+.intro{
+    padding-top: 15vh;
     justify-content: center;
     text-align: center;
-}
-.feats img{
-    size: 50%;
-    width: 70%;
-}
-.Body{
     align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-top: 20vh;
-    border: 3px rgb(24, 58, 150) solid;
-    border-radius: 17px;
-    background: url(/images/image4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.Body p{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
     font-family: "Josefin Sans";
     font-size: x-large;
-    font-weight: 700;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.intro input text{
+    height: 10vh;
+}
+.contacts{
+    color: red;
+}
+.Contacts{
+    padding-top: 15vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     color: aliceblue;
+    font-family: "Josefin Sans";
+    font-size: x-large;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 hr{
-    size: 10px;
+    color: tomato;
+    list-style: armenian;
+
 }
-.foot{
+.Contacts span{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+footer{
+    height: 10vh;
+}
+footer h1{
     color: aliceblue;
-    font-family: "Lilita One";
-}
-.foot h1{
+    font-family: "Josefin Sans";
     font-size: x-large;
 }
