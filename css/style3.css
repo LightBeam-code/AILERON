@@ -205,5 +205,9 @@ p{
     background: transparent;
     color: black;
     width: 320px;
-    right: -5%
+    left: -5%
+}
+.inputo input:focus~label,
+.inputo input:valid~label{
+    top: -5px;
 }
