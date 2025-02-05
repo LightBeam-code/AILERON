@@ -90,7 +90,120 @@ body{
     color: rgba(36, 70, 179, 0.788);
 }
 
-.Form{
-    
+.start h1{
+    font-size: 60px;
+}
+h1{
+    font-family: "Acme";
+    font-size: 40px;
+}
+.start{
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    font-family: "Josefin Sans";
 }
 
+.headin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Form{
+    position: relative;
+    width: 400px;
+    height:fit-content;
+    background: transparent;
+    border: 2px solid rgba(15, 1, 1, 0.582);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Form .box{
+    width: 100%;
+    padding:40px;
+}
+.box h1{
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.inputo{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid black;
+    margin: 30px 0;
+    padding: 0;
+}
+.inputo label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+}
+.inputo input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.selection select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #080808ea;
+    font-size: 1rem;
+    background: rgba(49, 59, 90, 0.356)
+}
+
+.inputo input:focus~label,
+.inputo input:valid~label{
+    top: -5px;
+}
+
+.form .inputo .sub{
+    border: #162938;
+}
+.Form .inputo input ::placeholder{
+    color: black;
+}
+.submit-button{
+    height: 4.5vh;
+    width: 316px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(25,25,27);
+    background: linear-gradient(90deg, rgba(25,25,27,0.9) 0%, rgba(97,49,43,0.57) 50%, rgba(121,20,20,0.87) 100%);
+    color: black;
+}
+.submit-button :hover{
+    background: transparent;
+    color: black;
+    width: 320px;
+    right: -5%
+}
