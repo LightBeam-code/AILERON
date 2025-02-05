@@ -96,8 +96,38 @@ body{
     background: linear-gradient(90deg, rgba(25,25,27,0.9) 0%, rgba(43,43,97,0.57) 50%, rgba(20,20,121,0.87) 100%);
     overflow-x: hidden;
 }
-main p {
-    font-size: 600;
-    font-family: "Josefin San";
 
+.Body h1{
+    font-size: xx-large;
+    font-family: "Acme";
 }
+.Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 17vh;
+}
+.Body p {
+    font-size: x-large;
+    font-family: "Josefin Sans";
+}
+.Body input{
+    width: 600px;
+    height: 10vh;
+    color: black;
+    font-family: "Josefin Sans";
+    outline: none;
+    border: 2px solid rgba(15, 1, 1, 0.582);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    font-size: x-large;
+    font-weight: 900;
+    background: rgb(25,25,27);
+    background: linear-gradient(90deg, rgba(25,25,27,0.9) 0%, rgba(97,49,43,0.57) 50%, rgba(121,20,20,0.87) 100%);
+}
+.Body input :hover{
+    background-color: rgba(0, 0, 255, 0.418);
+    color: azure;
+} 
