@@ -141,12 +141,24 @@ hr{
     border: 3px solid rgba(20, 20, 59, 0.363);
     border-radius: 5px;
 }
+
 .History p img{
     height: 67vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 524px;
 }
 .sekta{
     background: url(/images/t.t-mart-flight-pic.jpg);
     background-repeat:no-repeat;
     background-size: contain;
 }
-
+.feats{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.4) 0%, rgba(253,187,45,0.7) 100%);
+    border: 2px solid rgba(201, 76, 3, 0.726);
+    border-radius: 10px;
+}

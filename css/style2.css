@@ -44,7 +44,7 @@
 
 /*---------------------------------------------------------------------------------------------*/
 body{
-    background: url(images/image2.jpg);
+    background: url(/images/image2.jpg);
 }
 .CONTENT{
     width: 100%;
@@ -137,4 +137,49 @@ footer h1{
     color: aliceblue;
     font-family: "Josefin Sans";
     font-size: x-large;
+}
+.intro p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.response input {
+    width: 50vw;
+    height: 30vh;
+    background: rgba(31, 1, 51, 0.356);
+    border: 3px rgba(53, 0, 139, 0.322);
+    border-radius: 10px;
+    border-style: dashed;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    text-align: left;
+}
+.submit input{
+    border-radius: 15px;
+    width: 316px;
+    font-weight: bold;
+    font-size: x-large;
+    background: rgb(219,29,29);
+    background: radial-gradient(circle, rgba(219,29,29,0.32816876750700286) 0%, rgba(143,3,3,0.7651435574229692) 100%);
+    color: rgb(99,99,122);
+    
+}
+.submit input:hover{
+    background: rgb(22,118,195);
+    background: linear-gradient(90deg, rgba(22,118,195,0.9) 0%, rgba(29,127,253,0.5746673669467788) 50%, rgba(9,86,179,0.87) 100%);
+    color: darkcyan;
+}
+.text input{
+    color: linear-gradient(90deg, rgba(99,99,122,0.9) 0%, rgba(215,49,16,0.57) 50%, rgba(82,47,47,0.87) 100%);
+}
+.spaneth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
