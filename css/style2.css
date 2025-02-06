@@ -44,7 +44,7 @@
 
 /*---------------------------------------------------------------------------------------------*/
 body{
-    background: url(image2.jpg);
+    background: url(/images/image2.jpg);
 }
 .CONTENT{
     width: 100%;
