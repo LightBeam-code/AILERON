@@ -45,7 +45,8 @@
 /*---------------------------------------------------------------------------------------------*/
 body{
     height: 100%;
-    background: white;
+    background: rgb(2,2,2);
+    background: linear-gradient(101deg, rgba(2,2,2,1) 0%, rgba(5,4,9,1) 100%);
 }
 .CONTENT{
     width: 100%;
@@ -93,7 +94,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    color: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
     font-family: "Josefin Sans";
     font-size: x-large;
     padding-left: 10%;
@@ -111,7 +112,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    color: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
     font-family: "Josefin Sans";
     font-size: x-large;
     padding-left: 10%;
