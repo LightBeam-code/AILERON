@@ -72,6 +72,10 @@ body{
     color: rgba(191, 207, 243, 0.404);
     text-transform: uppercase;
 }
+.hEaD a{
+    text-decoration: none;
+    color: rgba(191, 207, 243, 0.404);
+}
 .CONTENT ul{
     display: flex;
     float: right;
