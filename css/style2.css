@@ -44,7 +44,8 @@
 
 /*---------------------------------------------------------------------------------------------*/
 body{
-   background: url(/images/image2.jpg);
+    background: rgb(2,2,2);
+    background: linear-gradient(101deg, rgba(2,2,2,1) 0%, rgba(5,4,9,1) 100%);
 }
 .CONTENT{
     width: 100%;

@@ -152,7 +152,8 @@ hr{
     padding-left: 524px;
 }
 .sekta{
-    background: url(/images/t.t-mart-flight-pic.jpg);
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(107,107,107,1) 75%, rgba(82,82,82,1) 100%);
     background-repeat:no-repeat;
     background-size: contain;
 }
