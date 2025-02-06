@@ -1,3 +1,6 @@
+
+document.getElementById("mySubmit").onclick = function(){
+
 let user= {
     name: document.getElementById('name').value,
     email: document.getElementById('email').value,
@@ -9,17 +12,16 @@ let user= {
     country: document.getElementById("country").value,
 }
 
-
 localStorage.setItem(
-    'userData',JSON.stringify(user)
+    'userData'.JSON.stringify(user)
 )
 
 let getUser = JSON.parse(localStorage.
-      getItem('useeData'))
+      getItem('userData'))
     
-alert('getUser..',getUser);
+console.log('getUser..',getUser);
     
-
+}
 
 
 

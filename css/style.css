@@ -107,7 +107,7 @@ body{
     padding-top: 27vh;
     border: 3px rgb(24, 58, 150) solid;
     border-radius: 17px;    
-    background: url(/images/image1.jpg);
+    background: url(/image1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -152,7 +152,7 @@ hr{
     padding-left: 524px;
 }
 .sekta{
-    background: url(/images/t.t-mart-flight-pic.jpg);
+    background: url(/t.t-mart-flight-pic.jpg);
     background-repeat:no-repeat;
     background-size: contain;
 }
